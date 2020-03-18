@@ -1,0 +1,24 @@
+.App {
+ display: flex;
+ flex-flow: column;
+ height: 100%;
+ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ .App-header {
+  display: block;
+  padding: 15px;
+  flex: 0 1 auto;
+  a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+  }
+ }
+ .App-body {
+  flex: 1 1 auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+ }
+}

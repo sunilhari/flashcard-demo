@@ -1,0 +1,23 @@
+.App-selectuser {
+ font-size: 1.5em;
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ justify-content: center;
+
+ #username {
+  padding: 10px;
+  margin: 10px;
+  font-size: inherit;
+  border-radius: 10px;
+ }
+ button {
+  padding: 10px;
+  font-size: inherit;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ }
+ .helper {
+  background: yellow;
+ }
+}
